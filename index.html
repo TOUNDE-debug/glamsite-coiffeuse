@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salon GlamHair — Coiffure professionnelle | Accueil</title>
+  <meta name="description" content="Salon de coiffure GlamHair — Coupes, colorations, soins et coiffures de mariée. Réservez votre rendez-vous en ligne 24h/24.">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Lato:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ── PROMO BANNER ── -->
+<div class="promo-banner">
+  🎉 Offre spéciale — 20% de réduction sur les colorations ce mois-ci ! Code : <strong>GLAM20</strong>
+  <button class="promo-close" aria-label="Fermer">✕</button>
+</div>
+
+<!-- ── HEADER ── -->
+<header class="header">
+  <div class="container">
+    <nav class="navbar">
+      <a href="index.html" class="logo">✂ Glam<span>Hair</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="pages/salon.html">Le Salon</a></li>
+        <li><a href="pages/prestations.html">Prestations</a></li>
+        <li><a href="pages/galerie.html">Galerie</a></li>
+        <li><a href="pages/boutique.html">Boutique</a></li>
+        <li><a href="pages/blog.html">Blog</a></li>
+        <li><a href="pages/contact.html">Contact</a></li>
+        <li>
+          <button class="cart-icon-btn" id="cart-icon-btn" aria-label="Panier">
+            🛍 Panier
+            <span class="cart-badge" id="cart-badge"></span>
+          </button>
+        </li>
+        <li class="nav-cta"><a href="pages/reservation.html" class="btn btn-primary">Réserver</a></li>
+      </ul>
+      <button class="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </div>
+  <!-- Menu mobile -->
+  <div class="mobile-menu">
+    <a href="index.html">Accueil</a>
+    <a href="pages/salon.html">Le Salon</a>
+    <a href="pages/prestations.html">Prestations</a>
+    <a href="pages/galerie.html">Galerie</a>
+    <a href="pages/boutique.html">Boutique</a>
+    <a href="pages/blog.html">Blog</a>
+    <a href="pages/contact.html">Contact</a>
+    <a href="pages/reservation.html" style="color:var(--rose)">📅 Réserver</a>
+  </div>
+</header>
+
+<!-- ── HERO ── -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <p class="hero-tag">✦ Salon de coiffure professionnel depuis 2005</p>
+      <h1>Révélez votre beauté, <em>magnifiez vos cheveux</em></h1>
+      <p>Expert en coupes, colorations et coiffures événementielles. Prenez rendez-vous en ligne en 2 minutes — disponible 24h/24.</p>
+      <div class="hero-btns">
+        <a href="pages/reservation.html" class="btn btn-primary">📅 Réserver maintenant</a>
+        <a href="pages/prestations.html" class="btn btn-white">Voir nos prestations</a>
+      </div>
+    </div>
+  </div>
+  <div class="hero-stats">
+    <div class="container">
+      <div class="stat-item"><strong>500+</strong><span>Clientes fidèles</span></div>
+      <div class="stat-item"><strong>18</strong><span>Ans d'expérience</span></div>
+      <div class="stat-item"><strong>4.9⭐</strong><span>Note Google</span></div>
+      <div class="stat-item"><strong>30+</strong><span>Prestations disponibles</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FEATURES STRIP ── -->
+<div class="features-strip">
+  <div class="container">
+    <span class="feature-pill">✅ Réservation en ligne 24h/24</span>
+    <span class="feature-pill">💬 Chat WhatsApp direct</span>
+    <span class="feature-pill">🌿 Produits naturels & bio</span>
+    <span class="feature-pill">🏆 Certifiée L'Oréal Pro</span>
+    <span class="feature-pill">🚗 Parking gratuit</span>
+  </div>
+</div>
+
+<!-- ── NOS PRESTATIONS ── -->
+<section class="section">
+  <div class="container text-center">
+    <span class="section-tag">Nos expertises</span>
+    <h2 class="section-title">Tout pour sublimer vos cheveux</h2>
+    <p class="section-sub">Du quotidien à l'exceptionnel, notre équipe prend soin de vos cheveux avec passion et expertise.</p>
+
+    <div class="services-grid fade-in">
+
+      <div class="service-card">
+        <div class="service-card__img"><span class="placeholder">✂️</span></div>
+        <div class="service-card__body">
+          <p class="service-card__cat">Coupe</p>
+          <h3 class="service-card__title">Coupe & Brushing</h3>
+          <p class="service-card__desc">Coupe personnalisée selon votre morphologie et vos envies, avec brushing soigné.</p>
+          <div class="service-card__footer">
+            <span class="service-card__price">À partir de 35 €</span>
+            <span class="service-card__duration">⏱ 1h</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-card__img"><span class="placeholder">🎨</span></div>
+        <div class="service-card__body">
+          <p class="service-card__cat">Coloration</p>
+          <h3 class="service-card__title">Balayage & Mèches</h3>
+          <p class="service-card__desc">Balayage naturel, tie & dye, mèches lumineuses — des techniques modernes pour un résultat lumineux.</p>
+          <div class="service-card__footer">
+            <span class="service-card__price">À partir de 65 €</span>
+            <span class="service-card__duration">⏱ 2h30</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-card__img"><span class="placeholder">💎</span></div>
+        <div class="service-card__body">
+          <p class="service-card__cat">Soin</p>
+          <h3 class="service-card__title">Soin Kératine</h3>
+          <p class="service-card__desc">Lissage brésilien à la kératine pour des cheveux soyeux, brillants et disciplinés jusqu'à 3 mois.</p>
+          <div class="service-card__footer">
+            <span class="service-card__price">À partir de 120 €</span>
+            <span class="service-card__duration">⏱ 3h</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-card__img"><span class="placeholder">👰</span></div>
+        <div class="service-card__body">
+          <p class="service-card__cat">Événement</p>
+          <h3 class="service-card__title">Coiffure de Mariée</h3>
+          <p class="service-card__desc">Un jour unique mérite une coiffure exceptionnelle. Essai inclus, coordination avec votre tenue.</p>
+          <div class="service-card__footer">
+            <span class="service-card__price">Sur devis</span>
+            <span class="service-card__duration">⏱ 3h+</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-card__img"><span class="placeholder">🌊</span></div>
+        <div class="service-card__body">
+          <p class="service-card__cat">Permanente</p>
+          <h3 class="service-card__title">Permanente & Ondulation</h3>
+          <p class="service-card__desc">Boucles naturelles, ondulations douces ou boucles définies selon votre personnalité.</p>
+          <div class="service-card__footer">
+            <span class="service-card__price">À partir de 80 €</span>
+            <span class="service-card__duration">⏱ 2h</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-card__img"><span class="placeholder">✨</span></div>
+        <div class="service-card__body">
+          <p class="service-card__cat">Extension</p>
+          <h3 class="service-card__title">Extensions Cheveux</h3>
+          <p class="service-card__desc">Longueur, volume et densité en un rendez-vous. Techniques kératine, tissage et clip.</p>
+          <div class="service-card__footer">
+            <span class="service-card__price">À partir de 150 €</span>
+            <span class="service-card__duration">⏱ 4h</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="margin-top:36px;">
+      <a href="pages/prestations.html" class="btn btn-outline">Voir toutes nos prestations</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── GALERIE APERÇU ── -->
+<section class="section section--gray">
+  <div class="container text-center">
+    <span class="section-tag">Notre travail</span>
+    <h2 class="section-title">Ils nous font confiance</h2>
+    <p class="section-sub">Quelques-unes de nos réalisations récentes.</p>
+    <div class="gallery-grid fade-in">
+      <div class="gallery-item"><span class="placeholder">🎨</span><div class="gallery-overlay">✨ Balayage californien</div></div>
+      <div class="gallery-item"><span class="placeholder">✂️</span><div class="gallery-overlay">✨ Coupe structurée</div></div>
+      <div class="gallery-item"><span class="placeholder">👰</span><div class="gallery-overlay">✨ Chignon mariée</div></div>
+      <div class="gallery-item"><span class="placeholder">💫</span><div class="gallery-overlay">✨ Coloration totale</div></div>
+      <div class="gallery-item"><span class="placeholder">🌊</span><div class="gallery-overlay">✨ Boucles naturelles</div></div>
+      <div class="gallery-item"><span class="placeholder">✨</span><div class="gallery-overlay">✨ Extensions</div></div>
+    </div>
+    <div style="margin-top:32px;">
+      <a href="pages/galerie.html" class="btn btn-outline">Voir toute la galerie</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── TÉMOIGNAGES ── -->
+<section class="section">
+  <div class="container text-center">
+    <span class="section-tag">Avis clients</span>
+    <h2 class="section-title">Elles nous adorent ❤️</h2>
+    <p class="section-sub">Plus de 500 clientes satisfaites nous font confiance depuis des années.</p>
+    <div class="testimonials-track fade-in">
+
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p class="testimonial-text">Un vrai coup de foudre pour ce salon ! Mon balayage est magnifique, exactement ce que je voulais. L'équipe est aux petits soins.</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">👩</div>
+          <div>
+            <div class="author-name">Aminata D.</div>
+            <div class="author-sub">Cliente depuis 3 ans</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p class="testimonial-text">J'ai adoré ma coiffure de mariée ! Tout était parfait, le chignon tenait toute la soirée. Merci infiniment à toute l'équipe !</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">👰</div>
+          <div>
+            <div class="author-name">Fatima K.</div>
+            <div class="author-sub">Mariée en Septembre 2025</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p class="testimonial-text">La réservation en ligne est très pratique ! J'ai pris rendez-vous le dimanche soir pour le lundi matin. Le soin kératine est top !</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">💁</div>
+          <div>
+            <div class="author-name">Nathalie B.</div>
+            <div class="author-sub">Cliente fidèle</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── RÉSERVATION CTA ── -->
+<section class="section section--rose">
+  <div class="container text-center">
+    <span class="section-tag">Rendez-vous</span>
+    <h2 class="section-title">Prête à vous faire chouchouter ?</h2>
+    <p class="section-sub">Réservez votre rendez-vous en ligne en moins de 2 minutes. Disponible 24h/24, 7j/7.</p>
+    <div style="display:flex; gap:16px; justify-content:center; flex-wrap:wrap;">
+      <a href="pages/reservation.html" class="btn btn-primary">📅 Réserver en ligne</a>
+      <a href="https://wa.me/33600000000?text=Bonjour%20!%20Je%20souhaite%20prendre%20rendez-vous." target="_blank" class="btn btn-outline">💬 WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── BLOG APERÇU ── -->
+<section class="section">
+  <div class="container text-center">
+    <span class="section-tag">Conseils & tendances</span>
+    <h2 class="section-title">Le blog beauté</h2>
+    <p class="section-sub">Nos experts partagent leurs conseils et les tendances capillaires du moment.</p>
+    <div class="blog-grid fade-in">
+
+      <div class="blog-card">
+        <div class="blog-card__img">🎨</div>
+        <div class="blog-card__body">
+          <p class="blog-card__cat">Coloration</p>
+          <h3 class="blog-card__title">Comment choisir sa couleur selon son teint ?</h3>
+          <p class="blog-card__excerpt">Guide complet pour trouver la couleur de cheveux qui sublimera votre carnation naturellement.</p>
+          <div class="blog-card__meta">
+            <span>📅 12 Juin 2026</span>
+            <span>⏱ 5 min de lecture</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="blog-card">
+        <div class="blog-card__img">💎</div>
+        <div class="blog-card__body">
+          <p class="blog-card__cat">Soins</p>
+          <h3 class="blog-card__title">5 soins incontournables pour des cheveux brillants</h3>
+          <p class="blog-card__excerpt">Découvrez les rituels de soin capillaire que nos expertes recommandent pour des cheveux en pleine santé.</p>
+          <div class="blog-card__meta">
+            <span>📅 3 Juin 2026</span>
+            <span>⏱ 4 min de lecture</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="blog-card">
+        <div class="blog-card__img">👰</div>
+        <div class="blog-card__body">
+          <p class="blog-card__cat">Mariage</p>
+          <h3 class="blog-card__title">Préparer sa coiffure de mariée : guide complet</h3>
+          <p class="blog-card__excerpt">Tout ce que vous devez savoir pour planifier la coiffure parfaite pour votre grand jour.</p>
+          <div class="blog-card__meta">
+            <span>📅 25 Mai 2026</span>
+            <span>⏱ 7 min de lecture</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div style="margin-top:32px;">
+      <a href="pages/blog.html" class="btn btn-outline">Lire tous nos articles</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── NEWSLETTER ── -->
+<section class="section section--gray">
+  <div class="container">
+    <div class="newsletter-box fade-in">
+      <h2>Restez dans la tendance ✉️</h2>
+      <p>Recevez nos conseils beauté, nos offres exclusives et les tendances capillaires directement dans votre boîte mail.</p>
+      <form id="newsletter-form" class="newsletter-form" novalidate>
+        <input type="email" name="email" class="newsletter-input" placeholder="Votre adresse email" required>
+        <button type="submit" class="btn btn-white">S'abonner</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo">✂ Glam<span>Hair</span></div>
+        <p>Votre salon de coiffure professionnel, dédié à sublimer votre beauté depuis 2005. Expertise, passion et produits de qualité.</p>
+        <div class="footer-socials">
+          <a href="#" class="social-btn" aria-label="Instagram">📸</a>
+          <a href="#" class="social-btn" aria-label="Facebook">👥</a>
+          <a href="#" class="social-btn" aria-label="TikTok">🎵</a>
+          <a href="#" class="social-btn" aria-label="Pinterest">📌</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="pages/salon.html">Le Salon</a></li>
+          <li><a href="pages/prestations.html">Prestations</a></li>
+          <li><a href="pages/galerie.html">Galerie</a></li>
+          <li><a href="pages/boutique.html">Boutique</a></li>
+          <li><a href="pages/blog.html">Blog</a></li>
+          <li><a href="pages/reservation.html">Réserver</a></li>
+          <li><a href="pages/contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Prestations</h4>
+        <ul>
+          <li><a href="pages/prestations.html">Coupes femme</a></li>
+          <li><a href="pages/prestations.html">Colorations</a></li>
+          <li><a href="pages/prestations.html">Balayage</a></li>
+          <li><a href="pages/prestations.html">Soins capillaires</a></li>
+          <li><a href="pages/prestations.html">Extensions</a></li>
+          <li><a href="pages/prestations.html">Coiffure mariée</a></li>
+          <li><a href="pages/devis.html">Devis événement</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Horaires</h4>
+        <div class="footer-horaires">
+          <div>Lundi — 9h à 19h</div>
+          <div>Mardi — 9h à 19h</div>
+          <div>Mercredi — 9h à 19h</div>
+          <div>Jeudi — 9h à 20h</div>
+          <div>Vendredi — 9h à 20h</div>
+          <div>Samedi — 9h à 17h</div>
+          <div>Dimanche — <span style="color:var(--rose)">Fermé</span></div>
+        </div>
+        <div style="margin-top:14px;">
+          <a href="https://wa.me/33600000000" target="_blank" style="color:var(--whatsapp); font-weight:600; font-size:.9rem;">💬 WhatsApp : 06 00 00 00 00</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2026 GlamHair — Tous droits réservés</div>
+      <div>
+        <a href="pages/mentions-legales.html">Mentions légales</a> ·
+        <a href="pages/mentions-legales.html#confidentialite">Confidentialité</a> ·
+        <a href="pages/mentions-legales.html#cgv">CGV</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ── PANIER SIDEBAR ── -->
+<div class="cart-overlay" id="cart-overlay"></div>
+<div class="cart-sidebar" id="cart-sidebar">
+  <div class="cart-header">
+    <h3>🛍 Mon Panier</h3>
+    <button class="cart-close" id="cart-close-btn" aria-label="Fermer">✕</button>
+  </div>
+  <div class="cart-items" id="cart-items">
+    <p class="cart-empty">🛒 Votre panier est vide.</p>
+  </div>
+  <div class="cart-footer">
+    <div class="cart-total-row">
+      <span class="cart-total-label">Total</span>
+      <span class="cart-total-val" id="cart-total">0.00 €</span>
+    </div>
+    <button class="btn btn-primary" style="width:100%;" id="cart-checkout-btn">
+      💳 Passer la commande
+    </button>
+  </div>
+</div>
+
+<!-- ── MODAL CONFIRMATION RDV ── -->
+<div class="modal-overlay" id="modal-confirm">
+  <div class="modal" style="text-align:center;">
+    <button class="modal-close" aria-label="Fermer">✕</button>
+    <div style="font-size:3rem;margin-bottom:12px;">✅</div>
+    <h3>Rendez-vous confirmé !</h3>
+    <p>Un email de confirmation vient de vous être envoyé. Nous avons hâte de vous accueillir au salon !</p>
+    <div style="margin-top:24px; display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
+      <a href="https://wa.me/33600000000" target="_blank" class="btn btn-primary">💬 Nous contacter sur WhatsApp</a>
+      <button onclick="closeModal('modal-confirm')" class="btn btn-outline">Fermer</button>
+    </div>
+  </div>
+</div>
+
+<!-- ── WHATSAPP WIDGET ── -->
+<div class="wa-widget" id="wa-widget">
+  <div class="wa-widget__header">
+    <div class="wa-widget__avatar">💁‍♀️</div>
+    <div>
+      <div class="wa-widget__name">GlamHair Salon</div>
+      <div class="wa-widget__status">🟢 En ligne maintenant</div>
+    </div>
+    <button class="wa-widget__close" aria-label="Fermer">✕</button>
+  </div>
+  <div class="wa-widget__body">
+    <div class="wa-bubble">
+      Bonjour ! 👋 Bienvenue sur GlamHair.<br>
+      Comment puis-je vous aider ? Réservation, tarifs, conseils… je suis là !
+      <div class="wa-time">Maintenant</div>
+    </div>
+  </div>
+  <div class="wa-widget__footer">
+    <a href="https://wa.me/33600000000?text=Bonjour%20GlamHair%20!%20Je%20viens%20depuis%20votre%20site%20et%20j'ai%20une%20question." target="_blank" class="btn-wa-start">
+      💬 Démarrer la conversation
+    </a>
+  </div>
+</div>
+
+<!-- ── BOUTON WHATSAPP FLOTTANT ── -->
+<div class="whatsapp-float">
+  <div class="whatsapp-tooltip">Discutez avec nous !</div>
+  <div class="whatsapp-btn" id="wa-float" role="button" aria-label="Chat WhatsApp">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+    </svg>
+  </div>
+</div>
+
+<!-- ── SCROLL TO TOP ── -->
+<button class="scroll-top" aria-label="Haut de page">↑</button>
+
+<!-- ── TOAST CONTAINER ── -->
+<div class="toast-container" id="toast-container"></div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
